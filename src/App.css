@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.My-header {
+  background-color: antiquewhite;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.My-footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.My-content {
+  background-color: azure;
+  font-family: Sarabun, Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2cm;
+  border-radius: 15px;
+  border: 2px solid sandybrown;
+  
+}
