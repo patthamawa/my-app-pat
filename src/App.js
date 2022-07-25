@@ -7,7 +7,8 @@ function App() {
     <div>
       <MyHeader />
       <div class='My-content'>
-        ok
+        <button className='btn btn-primary'>เพิ่ม</button>&nbsp;
+        <button className='btn btn-danger'>ลด</button>
       </div>
       <MyFooter />
     </div>
