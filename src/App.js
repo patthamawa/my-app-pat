@@ -10,8 +10,8 @@ function App() {
       <MyHeader />
       <div class='My-content'>
         <h2>{num}</h2>
-        <button className='btn btn-primary' onClick={() => setNum(1)}>เพิ่ม</button>&nbsp;
-        <button className='btn btn-danger'>ลด</button>
+        <button className='btn btn-primary' onClick={() => setNum(num+1)}>เพิ่ม</button>&nbsp;
+        <button className='btn btn-danger'onClick={() => setNum(num-1)}>ลด</button>
       </div>
       <MyFooter />
     </div>
