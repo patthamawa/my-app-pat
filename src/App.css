@@ -38,7 +38,7 @@
 }
 
 .My-header {
-  background-color: rgb(151, 199, 222);
+  background-color: rgb(207, 240, 255);
   font-family: Mitr, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
@@ -49,11 +49,11 @@
 }
 
 .My-content {
-  background-color: white;
+  background-color: rgb(255, 241, 228);
   font-family: Sarabun, Verdana, Geneva, Tahoma, sans-serif;
   padding: 2em;
   border-radius: 15px;
-  border: 2px solid #415680;
+  border: 2px solid #b3751a;
   margin-bottom: 1em;
   text-align: center;
   font-size: larger;

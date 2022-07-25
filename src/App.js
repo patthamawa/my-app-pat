@@ -5,6 +5,26 @@ import React, {useState} from 'react';
 
 function App() {
   const [num, setNum] = useState(0); 
+
+  function AddPrimeNumber(){
+    let prime = true;
+    setNum(num + 1);
+    for (let i = 2; i <num; i++) {
+        if (num % i == 0) {
+          prime = false;
+        break;
+    }
+  }
+    let r = "";
+    if (prime) r = "{num}เป็นจำนวนเฉพาะ";
+    else r = "{num}ไม่เป็นจำนวนเฉพาะ";
+    console.log(num,r);
+    return r;
+  }
+
+  function SubtractPrimeNumber() {
+    return setNum(num-1);
+  }
   return (
     <div>
       <MyHeader />
